@@ -1,0 +1,32 @@
+---------------
+#Basic Syntax
+---------------
+SELECT
+
+FROM
+
+WHERE
+
+---------------
+# Insert & Update
+---------------
+INSERT INTO 'table name'
+  (column 1, column2, ...)
+CALUES
+  (value 1, value 2, ....)
+
+UPDATE 'table name'
+SET column = 'new value'
+WHERE column = 'unique ID'
+
+---------------
+#Create a new table
+---------------
+CREATE TABLE IF NOT EXISTS
+
+  #stores in local memory, csv
+
+---------------
+#Good housekeeping - deleteing old, redundant, unsed tables I created
+---------------
+DROP TABLE IF EXISTS
